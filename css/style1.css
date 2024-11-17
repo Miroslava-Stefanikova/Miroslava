@@ -1,0 +1,124 @@
+@font-face {
+    font-family: font;
+    src: url(fonts/Klavika-Regular.otf);
+}
+body {
+    font-family: font;
+    background-image: url(../img/mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper {
+	margin: auto;
+    clear: both;
+}
+.content{
+	display: block;
+	margin-top: 60px;
+	height: 850px;
+}
+.title h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 68px;
+    color:rgb(166, 35, 32);
+}
+.academicBackground{
+	display: inline-block;
+	width: 50%;
+	float: left;
+	margin-bottom: 75px;
+}
+.academicBackground h2 {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(166, 35, 32);
+}
+@font-face {
+    font-family: font1;
+    src: url(fonts/Swiss T.otf);
+}
+.academicBackground p {
+    font-size: 16px;
+    font-family: font1;
+    line-height: 24px;
+    padding-left: 36px;
+    padding-right: 36px;
+    color: rgb(105, 22, 20);
+    text-shadow: 1px 1px black;
+}
+.experience{
+	display: inline-block;
+	width: 50%;
+	float: left;
+	margin-bottom: 75px;
+}
+.experience h2{
+	font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+    color:rgb(166, 35, 32);
+}
+@font-face {
+    font-family: font2;
+    src: url(fonts/Swiss T.otf);
+}
+.experience p {
+    font-size: 16px;
+    font-family: font2;
+    line-height: 24px;
+    padding-left: 124px;
+    padding-right: 124px;
+    color: rgb(105, 22, 20);
+    text-shadow: 1px 1px black;
+}
+.skill{
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+.skill h2{
+	font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+    color:rgb(166, 35, 32);
+}
+@font-face {
+    font-family: font3;
+    src: url(fonts/Swiss T.otf);
+}
+.skill p {
+    font-size: 16px;
+    font-family: font3;
+    line-height: 24px;
+    padding-left: 36px;
+    padding-right: 36px;
+    color: rgb(105, 22, 20);
+    text-shadow: 1px 1px black;
+}
+
+.computer{
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+.computer h2{
+	font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+    color:rgb(166, 35, 32);
+}
+@font-face {
+    font-family: font4;
+    src: url(fonts/Swiss T.otf);
+}
+.computer p {
+    font-size: 16px;
+    font-family: font4;
+    line-height: 24px;
+    padding-left: 124px;
+    padding-right: 124px;
+    color: rgb(105, 22, 20);
+    text-shadow: 1px 1px black;
+}
