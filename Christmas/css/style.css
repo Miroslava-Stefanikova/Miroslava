@@ -1,0 +1,95 @@
+body {
+    background-image: url(../img/lights.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.wrapper {
+	background-image: url(../img/ball.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+	margin: auto;
+    clear: both;
+    width: 1150px;
+    height: 760px;
+}
+
+#message {
+    display: table;
+    width: 100%;
+    margin: auto;
+}
+#message h1 {
+	font-family: Philosopher;
+    text-align: center;
+    font-size: 37px;
+    padding-top: 65px;
+    padding-bottom: 52px;
+    color: #6b6b77f5;
+}
+#message h1{
+	-webkit-animation: zoomIn 4s linear;
+}
+
+
+#description{
+	display: block;
+	width: 100%;
+}
+.cointainer{
+	display: block;
+	width: 100%;
+}
+
+@font-face {
+    font-family: font;
+    src: url(fonts/Klavika-Regular.otf);
+}
+
+p{
+    text-align: center;
+    font-size: 27px;
+    font-family: font;
+    line-height: 48px;
+    padding-bottom: 63px;
+    padding-top: 33px;
+    color: #87898b;
+}
+
+.sentence {
+    display: block;
+    font-family: Cormorant;
+    text-align: center;
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 64px;
+    color: #5a5a60;
+}
+
+.button {
+    display: table;
+    margin: auto;
+    text-decoration: none;
+    border: 3px solid #6b6b77f5;
+    border-radius: 4px;
+    padding: 13px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #383838f5;
+    cursor: pointer;
+    font-family: Philosopher;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+ a:hover{
+	color:#52097a;
+	-webkit-transition: color 1.5s ease;
+	-transition: color 1.5s ease;
+}
+.button{
+	-webkit-animation: fadeInLeftBig 5s;
+}
+
+
